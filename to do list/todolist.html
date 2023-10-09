@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .task-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .task-list li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .task-list li input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    .task-list li .task {
+      flex-grow: 1;
+    }
+
+    .add-task {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .add-task input[type="text"] {
+      flex-grow: 1;
+      padding: 5px;
+    }
+
+    .add-task button {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 7px 15px;
+      cursor: pointer;
+    }
+
+    .add-task button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <ul class="task-list">
+      <li>
+        <input type="checkbox">
+        <span class="task">Example Task 1</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        <span class="task">Example Task 2</span>
+      </li>
+    </ul>
+    <div class="add-task">
+      <input type="text" placeholder="Add a new task">
+      <button>Add</button>
+    </div>
+  </div>
+</body>
+</html>

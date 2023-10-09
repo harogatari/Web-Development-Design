@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>BucaBurger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!--HEADERS-->
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="images/bucaburger.png">
+    </a>
+    <nav class="navbar">
+      <a href="index.html" class="active">Anasayfa</a>
+      <a href="#">Hakkımda</a>
+      <a href="#">Menü</a>
+      <a href="#">Ürünler</a>
+      <a href="#">Önizleme</a>
+      <a href="#">İletişim</a>
+      <a href="#">Makaleler</a>
+    </nav>
+    <div class="buttons">
+      <button><i class="fa-solid fa-magnifying-glass " style="color: #d37e09;"></i></button>
+      <button><i class="fa-solid fa-cart-plus " style="color: #d37e09;"></i></button>
+      <button id="menu-btn"><i class="fa-solid fa-bars " style="color: #d37e09;"></i></button>
+    </div>
+    <div class="search-form">
+      <input type="text" class="search-input" id="search-box" placeholder="Arama">
+      <i class="fas fa-search"></i>
+    </div>
+  </header>
+  <!--HEADERS END-->
+
+
+  <!--HOME-->
+  <section class="home">
+    <div class="content">
+      <h3>BUCA BURGER HIZMETINIZDE</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Quas vero sit odio eveniet enim quibusdam.
+        Explicabo, id ipsa quo sint amet obcaecati!
+        Provident, at vero nihil perspiciatis magni laudantium fuga!</p>
+        <a href="#" class="btn">Sipariş Ver</a>
+      </div>
+      
+  </section>
+
+  <!--HOME END-->
+
+  <!--MENU-->
+  <section class="menu">
+    <h1 class="heading">MENÜLER</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="box-head"><img src="images/menu1.jpeg" alt="menu 1">
+          <span class="menu-category">BUCABURGER</span>
+          <h3>BUCA BURGER PATATES MENU</h3>
+          <div class="price">$29.99 <span>$69.99</span></div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head"><img src="images/menu2.jpeg" alt="menu 1">
+          <span class="menu-category">CHEESEBURGER</span>
+          <h3>CHEESEBURGER PATATES MENU</h3>
+          <div class="price">$39.99 <span>$79.99</span></div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head"><img src="images/menu3.jpg" alt="menu 1">
+          <span class="menu-category">MAYOBURGER</span>
+          <h3>MAYOBURGER PATATES MENU</h3>
+          <div class="price">$19.99 <span>$59.99</span></div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head"><img src="images/menu4.jpg" alt="menu 1">
+          <span class="menu-category">GORILLABURGER</span>
+          <h3>GORILLABURGER PATATES MENU</h3>
+          <div class="price">$89.99 <span>$129.99</span></div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete ekle</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--MENU END-->
+  <!--PRODUCT-->
+  <section class="products">
+    <h1 class="heading">ÜRÜNLER</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="box-head">
+          <span class="title">CHEESEBURGER</span>
+          <a href="#" class="name">CHEESEBURGER</a>
+          <div class="image"><img src="images/p1.jpg" alt="menu 1"></div>
+        </div>
+        <div class="box-bottom">
+          <div class="info">
+            <b class="price">$19.99</b>
+            <span class="amount">160gr / 450cal</span>
+          </div>
+          <div class="product-btn">
+            <a href="#">
+              <i class="fa-solid fa-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <span class="title">BACONBURGER</span>
+          <a href="#" class="name">BACONBURGER</a>
+          <div class="image"><img src="images/p2.jpg" alt="menu 1"></div>
+        </div>
+        <div class="box-bottom">
+          <div class="info">
+            <b class="price">$46.99</b>
+            <span class="amount">360gr / 950cal</span>
+          </div>
+          <div class="product-btn">
+            <a href="#">
+              <i class="fa-solid fa-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <span class="title">BUCABURGER</span>
+          <a href="#" class="name">BUCABURGER</a>
+          <div class="image"><img src="images/p3.jpg" alt="menu 1"></div>
+        </div>
+        <div class="box-bottom">
+          <div class="info">
+            <b class="price">$9.99</b>
+            <span class="amount">120gr/350cal</span>
+          </div>
+          <div class="product-btn">
+            <a href="#"><i class="fa-solid fa-plus"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+  </section>
+  <!--PRODUCT END-->
+
+
+  <!--ABOUT START-->
+  <section class="about">
+    <h1 class="heading">Hakkımızda</h1>
+    <div class="row">
+      <div class="image">
+        <img src="images/allaboutus.jpg" alt="hakkımda" />
+      </div>
+      <div class="content">
+        <h3>Hamburgerin Sanatla Buluşması</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis accusantium unde animi dolor, doloribus
+          saepe, eligendi non reiciendis eos, quisquam ut! Suscipit provident, corporis voluptatum officiis adipisci
+          autem accusantium illum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis accusantium unde animi dolor, autem
+          accusantium illum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis accusantium unde animi dolor, doloribus
+          saepe, eligendi non reiciendis eos, quisquam ut! Suscipit provident, corporis voluptatum officiis adipisci
+          autem accusantium illum. doloribus saepe, eligendi non reiciendis eos, quisquam ut! Suscipit provident,
+          corporis voluptatum officiis adipisci</p>
+        <a href="#" class="btn">Daha Fazlası İçin</a>
+      </div>
+    </div>
+  </section>
+  <!--ABOUT END-->
+
+
+
+  <!--REVIEW START-->
+  <section class="review">
+    <h1 class="heading">Önizleme</h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/quotation.png" alt="quote" class="quote">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga recusandae numquam animi magni nulla ducimus,
+          sequi nesciunt cumque? Maiores ratione corrupti at consectetur excepturi, aperiam est eius laboriosam
+          voluptatum accusamus?</p>
+        <img src="images/chefreview1.jpg" alt="Murat Keskin" class="user" />
+        <h3>Murat Keskin</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/quotation.png" alt="quote" class="quote">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga recusandae numquam animi magni nulla ducimus,
+          sequi nesciunt cumque? Maiores ratione corrupti at consectetur excepturi, aperiam est eius laboriosam
+          voluptatum accusamus?</p>
+        <img src="images/chefreview2.jpg" alt="Levent Köksal" class="user" />
+        <h3>Levent Köksal</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/quotation.png" alt="quote" class="quote">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga recusandae numquam animi magni nulla ducimus,
+          sequi nesciunt cumque? Maiores ratione corrupti at consectetur excepturi, aperiam est eius laboriosam
+          voluptatum accusamus?</p>
+        <img src="images/chefreview3.jpg" alt="Gülçin Sungur" class="user" />
+        <h3>Gülçin Sungur</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--REVIEW END-->
+  <!--CONTACT START-->
+  <section class="contact">
+    <h1 class="heading">İLETİŞİM</h1>
+    <div class="row">
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100140.82637029303!2d27.251838550000002!3d38.339703899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b96156867558c7%3A0xd2c0cf1972fe1f25!2zQnVjYS_EsHptaXI!5e0!3m2!1str!2str!4v1692024597329!5m2!1str!2str"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <form>
+        <h3>BİZE ULAŞIN</h3>
+        <div class="inputBox">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Ad Soyad" />
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="E-Mail" />
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-phone"></i>
+          <input type="number" placeholder="Telefon Numarasi" />
+        </div>
+        <input type="submit" class="btn" value="Gönder" />
+      </form>
+    </div>
+  </section>
+
+  <!--CONTACT END-->
+    <!-- BLOG START-->
+    <section class="blogs">
+      <h1 class="heading">MAKALELER</h1>
+      <div class="box-container">
+
+        <div class="box">
+          <div class="image">
+          <img src="images/b1.jpg">
+        </div>
+        
+        <div class="content">
+          <a href="#" class="title">Soslarımızın sırrı</a>
+          <span>By BucaBurger - 23 April 2022</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam enim possimus quo? Facere necessitatibus eveniet aut tenetur architecto fugiat quia at adipisci modi voluptates, molestias nesciunt commodi reprehenderit sint.</p>
+          <a href="#" class="btn">Daha Fazla Oku</a>
+        </div>
+      </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/b222.jpg">
+          </div>
+        
+        <div class="content">
+          <a href="#" class="title">Doğru Et nasıl seçilir?</a>
+          <span>By BucaBurger - 23 April 2022</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam enim possimus quo? Facere necessitatibus eveniet aut tenetur architecto fugiat quia at adipisci modi voluptates, molestias nesciunt commodi reprehenderit sint.</p>
+          <a href="#" class="btn">Daha Fazla Oku</a>
+        </div>
+        </div>
+
+
+        <div class="box">
+          <div class="image">
+            <img src="images/b3.jpg">
+          </div>
+        
+        <div class="content">
+          <a href="#" class="title">Et Tütsüleme hakkında her şey</a>
+          <span>By BucaBurger - 23 April 2022</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam enim possimus quo? Facere necessitatibus eveniet aut tenetur architecto fugiat quia at adipisci modi voluptates, molestias nesciunt commodi reprehenderit sint.</p>
+          <a href="#" class="btn">Daha Fazla Oku</a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+      <!-- BLOG END-->
+      <!-- FOOTER START-->
+      <section class="footer">
+        <div class="search">
+ <input type="text" class="search-input" placeholder="Ara">
+ <button class="btn btn-primary">Arama</button>
+ </div>
+ <div class="share">
+  <a href="#" class="fab fa-facebook"></a>
+  <a href="#" class="fab fa-twitter"></a>
+  <a href="#" class="fab fa-instagram"></a>
+  <a href="#" class="fab fa-linkedin"></a>
+  <a href="#" class="fab fa-youtube"></a>
+ </div>
+ <div class="links"><a href="index.html">Anasayfa</a>
+  <a href="#">Hakkımda</a>
+  <a href="#">Menü</a>
+  <a href="#">Ürünler</a>
+  <a href="#">Önizleme</a>
+  <a href="#">İletişim</a>
+  <a href="#">Makaleler</a></div>
+  <div class="copyright">
+    created by <span>Harun Çakmak</span> - All Rights Reserved
+  </div>
+</section>
+
+
+
+
+      <!-- FOOTER END-->
+
+</body>
+
+</html>
